@@ -1,0 +1,20 @@
+{
+  "name": "banco-web-testing",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes web com Cypress da Mentoria 2.0 do Júlio de Lima",
+  "homepage": "https://github.com/AndradeTC86/banco-web-testing#readme",
+  "bugs": {
+    "url": "https://github.com/AndradeTC86/banco-web-testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndradeTC86/banco-web-testing.git"
+  },
+  "license": "ISC",
+  "author": "thiago.andrade",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
