@@ -15,7 +15,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run"
+    "test": "cypress run",
+    "cy:headed": "cypress run --headed",
+    "cy:open": "cypress open"
   },
   "dependencies": {
     "cypress": "^14.5.1"
