@@ -2,7 +2,7 @@
 
 # Automation Web Cypress
 
-This is the repository for automation of API, developed to work with Supertest, Mocha and Chai.
+This is the repository for automation of Web, developed to work with Cypress.
 
 ## Table of Contents
 
@@ -14,21 +14,23 @@ This is the repository for automation of API, developed to work with Supertest, 
 
 ## Goal
 
-The goal of this repository is to be easy to understand focused on developing automated tests for API, using [Supertest](https://www.npmjs.com/package/supertest), a tool developed in JavaScript language that provides speed, ease and reliability in the tests.
+The goal of this repository is to be easy to understand focused on developing automated tests for Web, using [Cypress](https://www.cypress.io/), a tool developed in JavaScript language that provides speed, ease and reliability in the tests.
 
 ## Project Structure
 
 ```
-|--- fixtures
-|--- helpers
-|--- test 
+|--- cypress
+|----- e2e
+|----- fixtures
+|----- support
+|--- cypress.config.js 
 |--- package-lock.json
 |--- package.json
 ```
 
 ## Tests
 
-The tests were written using the JavaScript language with Supertest, Mocha and Chai.
+The tests were written using the JavaScript language with Cypress.
 
 ## Run tests
 
@@ -36,7 +38,7 @@ The tests were written using the JavaScript language with Supertest, Mocha and C
 
 1. Requires node. To install, execute `npm install node` or download [Node](https://nodejs.org/en/download/)
 2. Run the command `npm install` to install dependencies
-3. Requires the [Banco API](https://github.com/juliodelimas/banco-api) up and running in the localhost to execute the tests 
+3. Requires the [Banco WEB](https://github.com/juliodelimas/banco-web) up and running in the localhost to execute the tests 
 
 ### Run Tests
 

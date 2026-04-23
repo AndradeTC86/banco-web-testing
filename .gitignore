@@ -1,0 +1,27 @@
+## Dependências
+node_modules/
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+## Variáveis de ambiente
+.env
+.env.*
+
+## Artefatos do Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+## Cache e saída de build
+.cache/
+dist/
+build/
+
+## Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
