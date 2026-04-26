@@ -39,7 +39,7 @@ The tests were written using the JavaScript language with Cypress.
 
 1. Requires node. To install, execute `npm install node` or download [Node](https://nodejs.org/en/download/)
 2. Run the command `npm install` to install dependencies
-3. Requires the [Banco WEB](https://github.com/juliodelimas/banco-web) up and running in the localhost to execute the tests 
+3. Requires the both [Banco API](https://github.com/juliodelimas/banco-api) and [Banco WEB](https://github.com/juliodelimas/banco-web) up and running in the localhost to execute the tests 
 
 ### Run Tests
 
