@@ -17,9 +17,13 @@
   "scripts": {
     "test": "cypress run",
     "cy:headed": "cypress run --headed",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:dashboard": ""
   },
   "dependencies": {
     "cypress": "^14.5.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^4.0.2"
   }
 }
