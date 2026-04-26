@@ -23,6 +23,7 @@ The goal of this repository is to be easy to understand focused on developing au
 |----- e2e
 |----- fixtures
 |----- support
+|------- commands
 |--- cypress.config.js 
 |--- package-lock.json
 |--- package.json
